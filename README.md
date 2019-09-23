@@ -1,0 +1,2 @@
+# paygate
+paygate wordpress theme
