@@ -23,6 +23,7 @@ body{
     font-weight: 700;
     line-height: 47px;
     color: #064c81;
+    position: relative;
 }
 .focus-business-area h2 strong {
     font-weight: 700;
@@ -101,11 +102,14 @@ body{
     position: absolute;
     z-index: 9;
     width: 100%;
+    padding-top: 26px;
 }
 .section-title p {
-    text-align: center;
-    color: #878787;
-    font-size: 19px;
+	text-align: center;
+	color: #878787;
+	font-size: 19px;
+	line-height: 28px;
+	padding: 10px 0;
 }
 .site-info p {
     color: #5f5f5f;
@@ -199,7 +203,7 @@ a.orange-btn-footer img {
     font-size: 0;
 }
 .es_subscription_form_submit {
-    background: #ff740c;
+    background:linear-gradient(#ffa828, #ff730b);
     border: none;
     color: #fff;
     text-transform: uppercase;
@@ -229,6 +233,7 @@ input.es_required_field.es_txt_email {
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 60px;
+    margin-top: 60px;
 }
 .footer-top {
     background-repeat: no-repeat;
@@ -245,32 +250,60 @@ input.es_required_field.es_txt_email {
 /* testimonial css */
 
 .testimonial-text {
-  background: #06D7A0;
-  color: #fff;
-  padding: 25px;
-  position: relative;
-  z-index: 1;
+    color: #878787;
+    padding: 30px 30px 50px 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    border: 1px solid #ffd3a1;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(255,237,217,1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(255,237,217,1);
+    box-shadow: 0px 4px 0px 0px rgba(255,237,217,1);
 }
+.single-testimonial-box.active .testimonial-text {
+	border-color: #9dc7e4;
+	 -webkit-box-shadow: 0px 4px 0px 0px #d8e9f4;
+    -moz-box-shadow: 0px 4px 0px 0px #d8e9f4;
+    box-shadow: 0px 4px 0px 0px #d8e9f4;
+}
+
 .testimonial-text p:last-child {
   margin-bottom: 0;
 }
 .quote-icon {
   margin-bottom: 20px;
-  font-size: 120%;
 }
 .testimonial-text:after {
-  position: absolute;
-  left: 30px;
-  bottom: -15px;
-  width: 30px;
-  height: 30px;
-  background: #06D7A0;
-  content: "";
-  transform: rotate(45deg);
+    position: absolute;
+    left: 46%;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    content: "";
+    transform: rotate(45deg);
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #ffd3a1;
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(255,237,217,1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(255,237,217,1);
+    box-shadow: 4px 4px 0px 0px rgba(255,237,217,1);
 }
+.single-testimonial-box.active .testimonial-text:after {
+	-webkit-box-shadow: 4px 4px 0px 0px #d8e9f4;
+    -moz-box-shadow: 4px 4px 0px 0px #d8e9f4;
+    box-shadow: 4px 4px 0px 0px #d8e9f4;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #9dc7e4;
+}
+
 .testimonial-bottom {
   margin-top: 50px;
-  margin-left: 15px;
+  margin-left: 62px;
 }
 .testimonial-bottom p {
   display: inline-block;
@@ -283,5 +316,366 @@ input.es_required_field.es_txt_email {
   border-radius: 50%;
   margin-top: -10px;
   margin-right: 11px;
-  width: 60px;
+  max-width: 100%;
+}
+p.author-details strong {
+    font-size: 20px;
+    line-height: 20px;
+    color: #414141;
+    font-weight: 700;
+}
+p.author-details {
+    float: right;
+    margin-top: -50px;
+    font-size: 14px;
+	font-weight: 700;
+	color: #414141;
+	line-height: 20px;
+}
+.testimonial-brand-lgo img {
+    margin-top: 50px;
+}
+.focus-business-area h2:after {
+    content: "";
+    position: absolute;
+    background: #054779;
+    height: 2px;
+    top: -15px;
+    right: 17px;
+    width: 50px;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    background: #054779;
+    height: 2px;
+    top: -25px;
+    right: 50%;
+    width: 50px;
+    left: 50%;
+}
+.newslatter-area .section-title h2:after{
+	display: none;
+}
+.testimonial-area h2 {
+    padding-bottom: 55px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 19px;
+	font-weight: 400;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+}
+.login-menu {
+	border: 2px solid #ff9c17;
+	border-radius: 50px;
+	background: #ff9c17;
+}
+.login-menu:hover {
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: unset;
+}
+.sign-up-menu {
+	border: 2px solid #fff;
+	border-radius: 50px;
+	margin-left: 10px;
+}
+.bg-primary .container {
+	padding: 0;
+}
+.sign-up-menu:hover {
+	background: #ff9c17;
+	border-color: #ff9c17;
+	transition: .5s;
+}
+a.orange-btn img:hover {
+	opacity: .7;
+	transition: .5s;
+}
+a.orange-btn-footer img:hover {
+	opacity: .7;
+	transition: .5s;
+}
+.green-btn-footer img:hover {
+	opacity: .7;
+	transition: .5s;
+}
+.col-md-6.footer-btn {
+	padding-right: 0;
+}
+.account-create-area .col-md-6 {
+	padding-left: 0;
+}
+.footer-copyright .col-md-8 {
+	padding-left: 0;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	color: rgb(247, 146, 29);
+	transition: .5s;
+}
+.login-menu a:hover:after{
+	display: none;
+}
+.sign-up-menu a:hover:after{
+	display: none;
+}
+#main-menu a:hover::after {
+	content: "";
+	background-image: url('http://localhost/paygate/wp-content/uploads/2019/09/hover-img.png');
+	width: 26px;
+	height: 13px;
+	position: absolute;
+	left: 40%;
+	top: -3px;
+	transition: .5s;
+}
+.nav-link {
+	position: relative;
+}
+#main-menu .current-menu-item:after a,
+#main-menu .current_page_item:after a{
+    content: "";
+	background-image: url('http://localhost/paygate/wp-content/uploads/2019/09/hover-img.png');
+	width: 26px;
+	height: 13px;
+	position: absolute;
+	left: 40%;
+	top: -3px;
+}
+
+
+
+
+/* responsive css */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.pci-area-right {
+		padding: 200px 50px 50px 0;
+	}
+	.pci-area-left img {
+		margin-left: 0;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: .7rem;
+		padding-left: .7rem;
+	}
+	.login-menu {
+		border: 2px solid #ff9c17;
+		border-radius: 50px;
+		background: unset;
+	}
+	.sign-up-menu:hover {
+		background: unset;
+		border-color: #ff9c17;
+		transition: .5s;
+	}
+	.footer-btn {
+		margin-top: 0px;
+		display: flex;
+	}
+	.focus-business-area h2 {
+		font-size: 38px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.login-menu {
+		border: 0px solid #ff9c17;
+		border-radius: unset;
+		background: unset;
+	}
+	.sign-up-menu {
+		border: 0px solid #fff;
+		border-radius: unset;
+		margin-left: 10px;
+	}
+	.login-menu:hover {
+		border: 0px solid #fff;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.focus-business-area h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.pci-area-right {
+		padding: 0 15px;
+		text-align: center !important;
+	}
+	.pci-area-left img {
+		margin: 0 auto;
+		text-align: center;
+		display: table;
+	}
+	.ww-order {
+		order: -2;
+	}
+	.what-we-do-single .text-right {
+		text-align: center !important;
+	}
+	.what-we-do-single .text-left {
+		text-align: center !important;
+	}
+	.what-we-do-single-one {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.orange-btn img {
+		margin-bottom: 40px;
+	}
+	.ww-img img {
+		width: 100%;
+		height: auto;
+	}
+	.footer-btn {
+		margin: 0 auto;
+		display: table;
+		text-align: center !important;
+	}
+	.testimonial-brand-lgo img {
+		margin-top: 0;
+		margin-left: 117px;
+	}
+	.testimonial-bottom {
+		margin-left: 50px;
+	}
+	.account-create-area {
+		padding-bottom: 70px;
+		text-align: center;
+	}
+	.bg-primary .container {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-toggler {
+		display: none;
+	}
+	.bg-primary .container {
+		max-width: 100%;
+	}
+	.ww-order {
+		order: -2;
+	}
+	.what-we-do-single .text-right {
+		text-align: center !important;
+	}
+	.what-we-do-single .text-left {
+		text-align: center !important;
+	}
+	.what-we-do-single-one {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.orange-btn img {
+		margin-bottom: 40px;
+	}
+	.ww-img img {
+		width: 100%;
+		height: auto;
+	}
+	.pci-area-right {
+		padding: 0 15px;
+		text-align: center !important;
+	}
+	.pci-area-left img {
+		margin: 0 auto;
+		text-align: center;
+		display: table;
+	}
+	.footer-btn {
+		margin: 0 auto;
+		display: table;
+		text-align: center !important;
+	}
+	.account-create-area {
+		padding-bottom: 70px;
+		text-align: center;
+	}
+	.testimonial-bottom {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.testimonial-brand-lgo img {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	input.es_required_field.es_txt_email {
+		margin: 0;
+	}
+	.es-field-wrap input {
+		width: 100%;
+	}
+	.focus-business-area h2 {
+		text-align: center !important;
+		font-size: 20px;
+	}
+	.focus-business-area p {
+		color: #4a4a4a;
+		text-align: center;
+		font-size: 17px;
+	}
+	.focus-business-area h2::after {
+		content: "";
+		position: absolute;
+		background: #054779;
+		height: 2px;
+		top: 0px;
+		right: 50%;
+		left: 50%;
+	}
+	.green-btn-footer img {
+		margin-bottom: 30px;
+	}
+	.contact-information .col-lg-3 {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.site-info p {
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 17px;
+	}
+	.site-footer-social ul {
+		margin: 0 auto;
+		float: none;
+		display: table;
+	}
+	.pci-area p {
+		font-size: 17px;
+	}
+	.section-title h2 {
+		font-size: 20px;
+	}
+	.section-title h2::after {
+		content: "";
+		position: absolute;
+		background: #054779;
+		height: 2px;
+		top: 0;
+		right: 50%;
+		width: 50px;
+		left: 47%;
+	}
+	.what-we-do-single h3 {
+		font-size: 20px;
+	}
+	.account-create-area h3 {
+		font-size: 20px;
+	}
+	.account-create-area p {
+		font-size: 17px;
+	}
+	.es-field-wrap {
+		float: none;
+	}
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		width: 150px;
+	}
 }

@@ -26,32 +26,32 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
             <div class="row account-create-area">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <h3>Ready to get started?</h3>
                     <p>Get in touch or create an account.</p>
                 </div>
-                <div class="col-md-6 text-right footer-btn">
+                <div class="col-lg-6 col-md-12 text-right footer-btn">
                     <a href="" class="green-btn-footer"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/button-greem.png" alt=""></a>
                     <a href="" class="orange-btn-footer"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/button-orange.png" alt=""></a>
                 </div>
             </div>
             <div class="row contact-information text-center">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <i class="fa fa-phone"></i>
                     <h6>Phone</h6>
                     <p>(+428) 888 888 8888</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <i class="fa fa-map-marker"></i>
                     <h6>Head Office</h6>
                     <p>123 west Dummy Car Street, Old City,New State, USA. PO 4288</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <i class="fa fa-map-marker"></i>
                     <h6>Main Office</h6>
                     <p>123 west Dummy Car Street, Old City,New State, USA. PO 4288</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <i class="fa fa-envelope"></i>
                     <h6>Email</h6>
                     <p>info@paygate.com</p>

@@ -35,13 +35,13 @@ get_header(); ?>
 <div class="pci-area" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bg1.png');">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6 pci-area-left">
+			<div class="col-lg-6 col-md-12 pci-area-left">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bg-copy.png" alt="">
 			</div>
-			<div class="col-md-6 text-right pci-area-right">
+			<div class="col-lg-6 col-md-12 text-right pci-area-right">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-2.png" alt="">
 				<p>We are PCI certified by the standard known as PCI DSS (Payment Card Industry Data Security Standard) founded by various institutions including Visa and Mastercard. We have been certified in level 3 as a merchant and we are finishing the process for level 2 as a Service Provider coming in Agoust 2019.</p>
-				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/button-orange.png" alt=""></a>
+				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pci-read-more-btn.png" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -59,25 +59,25 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row what-we-do-single what-we-do-single-one">
-			<div class="col-md-6 text-right">
+			<div class="col-lg-6 col-md-12 text-right">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-54.png" alt="">
 				<h3>Sed ut perspiciati</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqt enim ut aliquip ex ea commodo consequat</p>
-				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/button-orange.png" alt=""></a>
+				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pci-read-more-btn.png" alt=""></a>
 			</div>
-			<div class="col-md-6 ww-img">
+			<div class="col-lg-6 col-md-12 ww-img">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bg2.png" alt="">
 			</div>
 		</div>
 		<div class="row what-we-do-single">
-			<div class="col-md-6 text-right ww-img">
+			<div class="col-lg-6 col-md-12 text-right ww-img">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bg3.png" alt="">
 			</div>
-			<div class="col-md-6 text-left">
+			<div class="col-lg-6 col-md-12 text-left ww-order">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-541.png" alt="">
 				<h3>Sed ut perspiciati</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqt enim ut aliquip ex ea commodo consequat</p>
-				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/button-orange.png" alt=""></a>
+				<a href="" class="orange-btn"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pci-read-more-btn.png" alt=""></a>
 			</div>
 		</div>
 	</div>
@@ -99,36 +99,63 @@ get_header(); ?>
                <div class="col-md-4">
                    <div class="single-testimonial-box">
                        <div class="testimonial-text">
-                           <i class="fa fa-quote-left quote-icon"></i>
-                           <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only a fewseconds because, when I came to again, I was still laughing at Jonah.</p>
+                       		<img class="quote-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/quote.png" alt="">
+                           <p>In ullamcorper est eget tempor cursus neque mi consectetuer mi a ultricies massa est sed nisl Class aptent taciti sociosqu ad litora torquent per conubia nostra </p>
                        </div>
-                       <div class="testimonial-bottom">
-                           <img src="images/testimonial-img.png" alt="">
-                            <p class="author-details"><strong>Alva Dickinson</strong><br />CEO, Craftytheem</p>
+                       <div class="testimonial-bottom-section">
+                       		<div class="row">
+                       			<div class="col-lg-8 col-md-12">
+                       				 <div class="testimonial-bottom">
+                       				 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-15.png" alt="">
+                       				 </div>
+                            		<p class="author-details"><strong>By Author</strong><br />City, Location</p>
+                       			</div>
+                       			<div class="col-lg-4 col-md-12">
+                       				<div class="testimonial-brand-lgo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Layer-28.png" alt=""></div>
+                       			</div>
+                       		</div>
                         </div>
                    </div>
                </div>
                <div class="col-md-4">
                    <div class="single-testimonial-box active">
                        <div class="testimonial-text">
-                           <i class="fa fa-quote-left quote-icon"></i>
-                           <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only a fewseconds because, when I came to again, I was still laughing at Jonah.</p>
+                           <img class="quote-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/green-quote.png" alt="">
+                           <p> In ullamcorper est eget tempor cursus neque mi consectetuer mi a ultricies massa est sed nisl Class aptent taciti sociosqu ad litora torquent per conubia nostra </p>
                        </div>
-                       <div class="testimonial-bottom">
-                            <img src="images/testimonial-img.png" alt="">
-                            <p class="author-details"><strong>Alva Dickinson</strong><br />CEO, Craftytheem</p>
+                       <div class="testimonial-bottom-section">
+                       		<div class="row">
+                       			<div class="col-lg-8 col-md-12">
+                       				 <div class="testimonial-bottom">
+                       				 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-15.png" alt="">
+                       				 </div>
+                            		<p class="author-details"><strong>By Author</strong><br />City, Location</p>
+                       			</div>
+                       			<div class="col-lg-4 col-md-12">
+                       				<div class="testimonial-brand-lgo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Layer-29.png" alt=""></div>
+                       			</div>
+                       		</div>
                         </div>
                     </div>
                </div>
                <div class="col-md-4">
                    <div class="single-testimonial-box">
                        <div class="testimonial-text">
-                           <i class="fa fa-quote-left quote-icon"></i>
-                           <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only a fewseconds because, when I came to again, I was still laughing at Jonah.</p>
+                           <img class="quote-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/quote.png" alt="">
+                           <p> In ullamcorper est eget tempor cursus neque mi consectetuer mi a ultricies massa est sed nisl Class aptent taciti sociosqu ad litora torquent per conubia nostra </p>
                        </div>
-                       <div class="testimonial-bottom">
-                           <img src="images/testimonial-img.png" alt="">
-                            <p class="author-details"><strong>Alva Dickinson</strong><br />CEO, Craftytheem</p>
+                       <div class="testimonial-bottom-section">
+                       		<div class="row">
+                       			<div class="col-lg-8 col-md-12">
+                       				 <div class="testimonial-bottom">
+                       				 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Group-15.png" alt="">
+                       				 </div>
+                            		<p class="author-details"><strong>By Author</strong><br />City, Location</p>
+                       			</div>
+                       			<div class="col-lg-4 col-md-12">
+                       				<div class="testimonial-brand-lgo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Layer-30.png" alt=""></div>
+                       			</div>
+                       		</div>
                         </div>
                    </div>
                </div>
